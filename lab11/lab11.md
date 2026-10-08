@@ -1,5 +1,6 @@
 ## Installing from source
 
+```bash
 darina@MacBook-Pro ~ % git clone https://github.com/junegunn/fzf.git
 Cloning into 'fzf'...
 remote: Enumerating objects: 20496, done.
@@ -10,6 +11,7 @@ Receiving objects: 100% (20496/20496), 8.53 MiB | 198.00 KiB/s, done.
 Resolving deltas: 100% (13549/13549), done.
 darina@MacBook-Pro ~ % cd fzf
 darina@MacBook-Pro fzf % cat README.md
+```
 <details>
 <div align="center">
   <img src="https://raw.githubusercontent.com/junegunn/i/master/fzf-color.png" alt="fzf - a command-line fuzzy finder">
@@ -32,6 +34,8 @@ I would like to thank all the sponsors of this project who make it possible for 
 
 If you'd like to sponsor this project, please visit https://github.com/sponsors/junegunn.
 </details>
+
+```bash
 darina@MacBook-Pro fzf % ./install
 Downloading bin/fzf ...
 % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -64,4 +68,5 @@ Use uninstall script to remove fzf.
 For more information, see: https://github.com/junegunn/fzf
 darina@MacBook-Pro fzf % source ~/.zshrc
 darina@MacBook-Pro fzf % fzf
+```
 ![lab11.png](lab11.png)
